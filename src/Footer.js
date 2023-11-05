@@ -32,7 +32,7 @@ export default class Footer extends Component {
         style={{ cursor: "pointer" }}
         onClick={() => onShow(filter)}
       >
-        This is an example
+        {title}
       </a>
     );
   }
