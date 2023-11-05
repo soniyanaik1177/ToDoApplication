@@ -27,10 +27,11 @@ const deleteTodo = async (id) => {
   });
   return response.json();
 };
-
-export default {
+const logger =
+{
   getTodos,
   createTodo,
   deleteTodo,
   updateTodo,
-};
+}
+export default logger;
